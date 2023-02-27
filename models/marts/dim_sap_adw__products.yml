@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: dim_products
+    description: Dimensão com informações dos produtos
+    columns:
+      - name: pk_product
+        description: Primary key da dimensão products. Coluna que traz o ID do produto
+        tests:
+          - unique
+          - not_null
+      - name: name_product  
+        description: Coluna que traz o nome dos produtos vendidos.
