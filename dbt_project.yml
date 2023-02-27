@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'my_new_project' # <-- Name of the project.
+name: 'CEA_AW_LEANDRO_COSTA' # <-- Name of the project.
 version: '1.0.0'
 config-version: 2
 
@@ -32,14 +32,14 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  my_new_project: # <-- Name of the project. If you renamed your project you have to change this as well
+  CEA_AW_LEANDRO_COSTA: # <-- Name of the project. If you renamed your project you have to change this as well
     
-    # Applies to all files under models/example/
+    # Applies to all files under models
     example:
-      materialized: view
+      +materialized: table # Alterado de view para table para que tudo o que for criado na pasta models seja tabela (fatos e dimensoes).
 
 
 seeds:
-  my_new_project: # <-- Name of the project. If you renamed your project you have to change this as well
+  CEA_AW_LEANDRO_COSTA: # <-- Name of the project. If you renamed your project you have to change this as well
     sap_adventure_works:
       +schema: sap_adw
