@@ -1,7 +1,7 @@
 -- Só foi usada as informações pertinentes com a regra de negócio.
 
 with
-    source_products as (
+    source_product as (
         select
            cast (productid as int) as product_id
            , cast (name as string) as name_product
@@ -9,4 +9,4 @@ with
     )
 
 select *
-from source_products
+from source_product
