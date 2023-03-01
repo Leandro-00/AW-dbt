@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: dim_customer
+  - name: dim_sap_adw__customer
     description: Dimensão com informações dos clientes
     columns:
       - name: pk_customer_id

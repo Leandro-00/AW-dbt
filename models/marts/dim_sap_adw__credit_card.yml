@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: dim_credit_card
+  - name: dim_sap_adw__credit_card
     description: Dimensão com informações do tipo de cartão de crédito e com ID.
     columns:
       - name: pk_credit_card

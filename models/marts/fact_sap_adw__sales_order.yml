@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: fact_sales_order
+  - name: fact_sap_adw__sales_order
     description: Fato com informações das cidades, estados e países dos clientes.
     columns:
       - name: sk_sales_order_id

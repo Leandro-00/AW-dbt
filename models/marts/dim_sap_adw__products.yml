@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: dim_products
+  - name: dim_sap_adw__products
     description: Dimensão com informações dos produtos
     columns:
       - name: pk_product

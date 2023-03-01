@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: dim_territory
+  - name: dim_sap_adw__territory
     description: Dimensão com informações das cidades, estados e países dos clientes.
     columns:
       - name: pk_address_id
